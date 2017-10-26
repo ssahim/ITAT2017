@@ -11,4 +11,4 @@
 
 1. Introduction to Linux
 
-	[*] [Lectures](lectures/)
+	* [Lectures](intro/lectures)
