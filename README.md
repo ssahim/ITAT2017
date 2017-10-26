@@ -10,4 +10,5 @@
 ## Topics:
 
 1. Introduction to Linux
+
 	[*] [Lectures](lectures/)
