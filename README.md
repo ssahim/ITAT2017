@@ -36,3 +36,14 @@
 	* [Exercises](lectures/mgsoft/exercise)
 
 
+	
+4. **Users, Groups and Permissions**
+
+	This topic teaches participants how to add, remove, suspend and change users and groups. Participants will also learn the concepts behind file and directory permissions and ownership, and how to manipulate them.
+
+
+	* [Lectures](lectures/ugp/lectures)
+
+	* [Exercises](lectures/ugp/exercise)
+
+
