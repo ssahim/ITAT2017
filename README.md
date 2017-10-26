@@ -9,4 +9,5 @@
 
 ## Topics:
 
-![Introduction to Linux](lectures/)
+1. 
+	[*]. [Introduction to Linux](lectures/)
