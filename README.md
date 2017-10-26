@@ -22,3 +22,17 @@
 	* [Lectures](lectures/cmd/lectures)
 
 	* [Exercises](lectures/cmd/exercise)
+
+
+	
+3. **Managing software**
+
+	Participants learn about package management using Debian’s Advanced Package Tool (APT). After finishing this topic, students will be able to manage (find, install, remove) software through some of the frontends for APT, learn how and where to get more information about installable and installed packages (such as versions, content, dependencies, file integrity), and how to use official and non-official software repositories.
+
+
+
+	* [Lectures](lectures/mgsoft/lectures)
+
+	* [Exercises](lectures/mgsoft/exercise)
+
+
