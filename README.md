@@ -12,3 +12,5 @@
 1. Introduction to Linux
 
 	* [Lectures](lectures/intro/lectures)
+
+	* [Exercises](lectures/intro/exercise)
