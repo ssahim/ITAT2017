@@ -9,4 +9,4 @@
 
 ## Topics:
 
-![Introduction to Linux]()
+![Introduction to Linux](lectures/l1.pdf)
