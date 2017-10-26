@@ -17,7 +17,7 @@
 
 2. **Linux Command Line Interface**
 
-	Participants learn to interact with the shell environment and how to write simple command lines. This includes using basic command line utilities (and their most common options / parameters) to navigate the file system, perform basic file operations (copying, moving, creating, deleting and editing files, etc.), using the Linux manual (man) pages and other help options to find out more about specific commands, searching for files, and basic shell scripting. After this session the student should be able to perform simple task on the command line interface, including commands lines that require root privileges
+	Participants learn to interact with the shell environment and how to write simple command lines. This includes using basic command line utilities (and their most common options / parameters) to navigate the file system, perform basic file operations (copying, moving, creating, deleting and editing files, etc.), using the Linux manual (man) pages and other help options to find out more about specific commands, searching for files, and basic shell scripting. After this session the student should be able to perform simple task on the command line interface, including commands lines that require root privileges.
 
 	* [Lectures](lectures/cmd/lectures)
 
