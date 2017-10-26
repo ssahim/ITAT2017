@@ -1,0 +1,35 @@
+
+Exercise 1:
+
+	use: grep; also use pipes
+	
+	prepare env: cd ~ && mkdir -p exercise/1 && sudo cp /var/log/syslog exercises/1/syslog && cd exercise/1 && pwd
+	
+	task: count all entries in the syslog file between July 10 and July 19 that contain the word kernel AND the word error (both case insensitive!) but NOT the word dbus
+	
+	solution: grep -E '^Jul\s[1-2][0-9]' /var/log/messages | grep -i kernel | grep -i error | grep -v -i dbus
+
+
+Exercise 2:
+
+	use: grep, cut, sort, uniq; also use pipes
+
+	prepare env: cd ~ && mkdir -p exercise/2 && cd exercise/2 && wget http://84.200.12.217/access.log && pwd
+
+	task: show all files that have been accessed on July 20th on this web server, sort them alphabetically and make sure there are no duplicates
+		
+	solution: grep "20/Jul" access.log | cut -d " " -f 7 | sort | uniq
+	
+
+
+Exercise 3:
+	
+	use: grep, sed, sort; also use redirects & pipes
+	
+	prepare env: cd ~ && mkdir -p exercise/3 && cp /etc/services exercise/3/services && cd exercise/3 && pwd
+
+	task: create a new file that has no comments except if they start with "# private", no blank lines, and is ordered by the portnumber!
+	
+	additional task: switch the columns so that portnumber is first (use cut, paste)
+
+	solution: grep -E '^[a-z 0-9]|^#\ private|^#[a-z]' services | sed 's/# private/#private/g' | sort -k2 -n | sed 's/#private/# private/g'| less

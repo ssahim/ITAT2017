@@ -1,0 +1,31 @@
+1. 	wc moby.txt
+	OR wc -l moby.txt; wc -w moby.txt; wc -c moby.txt
+
+2. 	sed -i 's/"//g' moby.txt
+
+3. 	sed -i '21750,22108d' moby.txt
+	sed -i '36,535d' moby.txt
+	sed -i '1,30d' moby.txt
+
+4. grep -E 'whale\>' moby.txt | wc -l
+	--> 852
+
+5. grep -E 'Ahab\.' moby.txt | wc -l
+	--> 29
+	
+6. grep -E '^Whale' moby.txt | wc -l
+	--> 31
+	
+7. grep -E '[0-9][0-9][0-9][0-9]' moby.txt
+	OR
+	grep -E '[0-9]{4}' moby.txt
+	--> 29
+	
+8. sed -i 's/CHAPTER/Chapter/g' moby.txt
+
+9. grep -E '[A-Z][A-Z]' moby.txt |wc -l
+	OR
+	grep -E '[A-Z]{2}' moby.txt |wc -l
+	--> 299
+	
+10. sed -i 's/OLD/NEW/g' moby.txt
