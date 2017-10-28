@@ -6,6 +6,12 @@
 ### Test date and topics:
 1. Test on Wednesday, 01.11.2017 Topics: Command Line, Managing Software & Linux File Hierarchy System (FHS)
 
+## Sample Test
+
+Dear students please check the sample test. see how it gives you the grade and time.
+
+[Sample Test](https://srv.ziik.tu-berlin.de/moodle/mod/quiz/view.php?id=325)
+
 
 ## Topics:
 
