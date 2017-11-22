@@ -52,4 +52,14 @@ Dear students please check the sample test. see how it gives you the grade and t
 
 	* [Exercises](lectures/ugp/exercise)
 
+	
+5. **Networking**
+
+	In this topic. participants will learn about networking fundamentals: what is a computer network and how does it work, as well as more in-depth knowledge about the Internet Protocol (IPv4), TCP/UDP, IP networks and subnets, routing, and domain name resolution. Students should know how to set up networking on hosts and learn how to troubleshoot typical network problems.
+
+
+	* [Lectures](lectures/networking/lecture)
+
+	* [Exercises](lectures/networking/exercise)
+
 
